@@ -3,7 +3,7 @@
 
 TOP=$(pwd)
 BUILD=$TOP/pkgbuild
-export ROS_DISTRO=electric
+export ROS_DISTRO=fuerte
 CMAKE="cmake \
   -DCMAKE_INSTALL_PREFIX=/opt/ros/$ROS_DISTRO \
   -DCMAKE_PREFIX_PATH=/opt/ros/$ROS_DISTRO \
