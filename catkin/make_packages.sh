@@ -1,7 +1,7 @@
 #!/bin/bash -ex
 
 
-TOP=$(cd `dirname $0` ; pwd)
+TOP=$(pwd)
 BUILD=$TOP/pkgbuild
 export ROS_DISTRO=electric
 CMAKE="cmake \
