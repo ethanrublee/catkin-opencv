@@ -1,0 +1,25 @@
+Package: opencv
+Version: 2.3.1
+Section: misc
+Priority: extra
+Architecture: any
+Depends: ${misc:Depends},${shlibs:Depends}, python-empy, cmake, make, lsb-release,
+    pkg-config, cmake (>= 2.8), python-numpy, python-support, libavcodec-dev, libswscale-dev,
+    libgtk2.0-dev, libjasper-dev, libjpeg62-dev, libpng12-dev, libtiff4-dev,
+    zlib1g-dev, libavformat-dev,
+    liblapack-dev, libv4l-dev
+Build-Depends: debhelper (>= 7), cmake, gcc, make, python-empy, lsb-release,
+    python-dev,
+    python-numpy, python-support, libavcodec-dev, libswscale-dev,
+    libgtk2.0-dev, libjasper-dev, libjpeg62-dev, libpng12-dev, libtiff4-dev,
+    zlib1g-dev, libavformat-dev,
+    liblapack-dev, libv4l-dev, python-sphinx, texlive-latex-base
+Description: Willow Garage low level build system macros and infrastructure
+Author: Gary Bradksi <bradski@willowgarage.com>
+Maintainer: Ethan Rublee <erublee@willowgarage.com>
+Homepage: http://opencv.willowgarage.com
+
+Catkin-ProjectName: OpenCV
+Catkin-CopyrightType:  willowgarage
+Catkin-ChangelogType: +changelog.em
+Catkin-DebRulesType: +rules.em
